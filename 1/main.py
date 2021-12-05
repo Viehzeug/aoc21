@@ -7,7 +7,7 @@ def cnt_increase(numbers):
             inc += 1
     return inc
 
-with open('input', 'r') as f:
+with open('input.txt', 'r') as f:
     lines = f.readlines()
     numbers = [int(line.strip()) for line in lines]
 

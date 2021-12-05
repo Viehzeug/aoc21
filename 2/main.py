@@ -1,6 +1,6 @@
 hpos = 0
 depth = 0
-with open('input', 'r') as f:
+with open('input.txt', 'r') as f:
     for line in f:
         direction, distance = line.strip().split(' ')
         distance = int(distance)
@@ -17,7 +17,7 @@ print('Task 1:', hpos * depth)
 hpos = 0
 depth = 0
 aim = 0
-with open('input', 'r') as f:
+with open('input.txt', 'r') as f:
     for line in f:
         direction, distance = line.strip().split(' ')
         distance = int(distance)
